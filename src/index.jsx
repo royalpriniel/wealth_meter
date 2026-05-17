@@ -1,5 +1,5 @@
 import {createRoot} from 'react-dom/client';
-import {GuestList} from './wealthMeter';
+import {WealthMeter} from './wealthMeter';
 
 const root = createRoot(document.getElementById('root'));
 root.render(<WealthMeter />);
