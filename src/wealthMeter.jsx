@@ -13,7 +13,7 @@ const CONTAINER_STYLE = {
   padding: "0.7%",
   boxSizing: "border-box",
   display: "flex",
-  flexDirection: "column,
+  flexDirection: "column",
   alignItems: 'center',
   justifyContent: 'center'
 };
