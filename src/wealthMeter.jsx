@@ -12,6 +12,10 @@ const CONTAINER_STYLE = {
   top: "20px",  
   padding: "0.7%",
   boxSizing: "border-box",
+  display: "flex",
+  flexDirection: "column,
+  alignItems: 'center',
+  justifyContent: 'center'
 };
 
 const INNER_STYLE = {
