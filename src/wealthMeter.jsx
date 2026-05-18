@@ -4,7 +4,7 @@ const MAX_WEALTH = 10000;
 
 const CONTAINER_STYLE = {
   textAlign: 'center',
-  width: "90%",
+  width: "20rem",
   minHeight: "50vh",
   margin: "auto",
   backgroundColor: "#ab0",
