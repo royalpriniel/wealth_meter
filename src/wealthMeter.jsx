@@ -9,11 +9,9 @@ const CONTAINER_STYLE = {
   margin: "auto",
   backgroundColor: "#ab0",
   position: "relative",
-  top: "20px",  
   padding: "0.7%",
   boxSizing: "border-box",
   display: "flex",
-  flexDirection: "column",
   alignItems: 'center',
   justifyContent: 'center'
 };
@@ -21,6 +19,7 @@ const CONTAINER_STYLE = {
 const INNER_STYLE = {
   display: "flex",
   alignItems: "center",
+  justifyContent: "center",
   width: "95%",
   margin: "2% auto",
   border: "2px solid black",
