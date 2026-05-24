@@ -23,13 +23,13 @@ const INNER_STYLE = {
   margin: "2% auto",
   border: "2px solid black",
   backgroundColor: "#052",
-  height: "6vh",
+  height: "1.5rem",
 };
 
 const BAR_BASE_STYLE = {
   height: "100%",
   transition: "width 0.3s ease-out, background-color 0.3s ease-out",
-  borderRadius: "3px",
+  borderRadius: "0.25rem",
 };
 
 const getWealthColor = (currentWealth) => {
