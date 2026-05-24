@@ -5,10 +5,9 @@ const MAX_WEALTH = 10000;
 const CONTAINER_STYLE = {
   textAlign: 'center',
   width: "20rem",
-  minHeight: "50vh",
+  minHeight: "30rem",
   margin: "auto",
   backgroundColor: "#ab0",
-  position: "relative",
   padding: "0.7%",
   boxSizing: "border-box",
   display: "flex",
