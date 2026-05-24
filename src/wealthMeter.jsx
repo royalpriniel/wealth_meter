@@ -13,6 +13,7 @@ const CONTAINER_STYLE = {
   boxSizing: "border-box",
   display: "flex",
   alignItems: 'center',
+  flexDirection: "column",
   justifyContent: 'center'
 };
 
