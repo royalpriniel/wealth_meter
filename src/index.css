@@ -29,18 +29,19 @@ body{
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
+  box-sizing: border-box;
 }
 #root{
 
   display: flex;
   align-items: center;
-  justify-items: center;
-  border-sizing: border-box;
+  justify-content: center;
+  box-sizing: border-box;
   border: dashed blue 0.2rem;
   border-radius:0;
   width: 93%;
-  min-height: 90vh;
+  min-height: 90%;
   margin: auto;
   background-color: #aaccff;
 }

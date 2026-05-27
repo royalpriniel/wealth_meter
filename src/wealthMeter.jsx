@@ -3,14 +3,13 @@ import { useState } from 'react';
 const MAX_WEALTH = 10000;
 
 const CONTAINER_STYLE = {
+  margin: 'auto',
+  display: 'flex',
   textAlign: 'center',
   width: "20rem",
-  minHeight: "30rem",
-  margin: "auto",
+  minHeight: "10rem",
   backgroundColor: "#ab0",
-  padding: "0.7%",
   boxSizing: "border-box",
-  display: "flex",
   alignItems: 'center',
   flexDirection: "column",
   justifyContent: 'center'
@@ -20,8 +19,7 @@ const INNER_STYLE = {
   display: "flex",
   alignItems: "center",
   width: "95%",
-  margin: "2% auto",
-  border: "2px solid black",
+  border: "0.1rem solid black",
   backgroundColor: "#052",
   height: "1.5rem",
 };
@@ -67,17 +65,17 @@ export function WealthMeter() {
       <div style={INNER_STYLE}>
         <div style={dynamicBarStyle}></div>
       </div>
-      <div style={{textAlign:'center', margin: 'auto'}}>
-        <button onClick={barAdd} disabled={wealth === MAX_WEALTH} style={{margin: '5px', padding: '10px'}}>
+      <div style={{textAlign:'center', margin: 'auto', display:'flex', }}>
+        <button onClick={barAdd} disabled={wealth === MAX_WEALTH} style={{margin: '0.25rem', padding: '0.5rem'}}>
           Add Gain (+80)
         </button>
-        <button onClick={barSubtract} disabled={wealth === 0} style={{margin: '5px', padding: '10px'}}>
+        <button onClick={barSubtract} disabled={wealth === 0} style={{margin: '0.25rem', padding: '0.5rem'}}>
           Withdraw (-80)
         </button>
-        <button onClick={() => setWealth(0)} disabled={wealth === 0} style={{margin: '5px', padding: '10px'}}>
+        <button onClick={() => setWealth(0)} disabled={wealth === 0} style={{margin: '0.25rem', padding: '0.5rem'}}>
           Withdraw All
         </button>
       </div>
     </div>
   );
-}
+};
